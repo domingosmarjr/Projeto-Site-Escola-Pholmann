@@ -5,3 +5,7 @@
     padding: 1px;
     margin: 1px;
 }
+
+li {
+    display: inline-block;
+}
