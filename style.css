@@ -17,16 +17,15 @@ header {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     background-color: rgb(0, 0, 0);
     box-shadow: 10px 1px 10px 5px rgba(0, 0, 0, 0.568);
     height: 100px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     padding-top: 10px;
-    /* padding-bottom: 10px; */
 }
 
 header > img {
@@ -48,6 +47,8 @@ header > img:hover {
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     padding: 0px;
     width: 125px;
     height: 125px;
@@ -66,6 +67,8 @@ header > img:hover {
     /* margin-top: 7px; */
     /* height: 70px; */
     /* background-color: coral; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 header > div > h1{
@@ -86,25 +89,23 @@ header > div > h2 {
 }
 
 nav {
-    height: 30px;
     display: inline-flex;
     /* border: 1px solid rgb(1, 250, 22); */
-    padding: 0px;
-    /* width: 100%; */
-    /* margin-left: 80px; */
-    /* text-align: left; */
+    height: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
-    /* margin-top: 60px; */
     margin-left: 100px;
+    
 }
 
 nav > li {
-    /* border: 1px solid purple; */
-    display: inline;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
-    margin-left: 10px;
-    margin-right: 20px;;
+    margin-left: 19px;
+    padding: 0px;
+    text-align: center;
 }
 
 nav > li > a {
@@ -115,6 +116,25 @@ nav > li > a {
     transition: 0.5s;
 }
 
+#contato {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 195, 248);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+#contato:hover {
+    background-color: rgb(59, 195, 248);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 100px;
+}
 
 nav > li > a:hover {
     /* border: 1px solid orange; */
@@ -128,6 +148,15 @@ nav > li > a:hover {
 
 main {
     height: 1000px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid black;
+}
+
+main > section > img {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 footer {
