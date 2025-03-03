@@ -5,15 +5,8 @@
     margin: 0px;
 }
 
-body {
-    margin-top: 0px;
-}
-
-
 
 header {
-    /* border: 1px solid salmon; */
-
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -23,16 +16,18 @@ header {
     height: 100px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 10px;
+
+    position: relative;
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
 }
 
 header > img {
     border: 2px solid rgb(0, 0, 0);
-    margin: 0px;
     margin-right: 20px;
     margin-left: 2px;
+    margin-bottom: 0px;
+    margin-top: 25px;
     padding: 0px;
     width: 120px;
     height: 120px;
@@ -60,13 +55,8 @@ header > img:hover {
 #logotipo {
     text-align: center;
     width: 300px;
-    /* border: 1px solid blueviolet; */
     padding: 0px;
     margin: 0px;
-    /* margin-left: 10px; */
-    /* margin-top: 7px; */
-    /* height: 70px; */
-    /* background-color: coral; */
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -102,14 +92,13 @@ nav > li {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    list-style-type: none;
+    /* list-style-type: none; */
     margin-left: 19px;
     padding: 0px;
     text-align: center;
 }
 
 nav > li > a {
-    /* border: 1px solid orange; */
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
@@ -129,7 +118,7 @@ nav > li > a {
 }
 
 #contato:hover {
-    background-color: rgb(59, 195, 248);
+    background-color: rgb(135, 221, 255);
     color: rgb(0, 0, 0);
     border-radius: 15px;
     padding: 10px;
@@ -137,26 +126,28 @@ nav > li > a {
 }
 
 nav > li > a:hover {
-    /* border: 1px solid orange; */
     color: rgb(59, 195, 248);
     font-weight: bold;
     text-decoration: none;
     transition: 0.5s;
 }
 
-
-
+/* --------- INÍCIO DO PRINCIPAL ------------ */
 main {
     height: 1000px;
-    margin-top: 0px;
+    margin-top: -20px;
     padding-top: 0px;
-    border: 1px solid black;
+    /* border: 10px solid black; */
 }
 
-main > section > img {
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-top: 0px;
+main > section {
+    border: 5px solid purple;
+    height: 700px;
+}
+
+.cardPrincipal {
+    border: 5px solid rgb(255, 0, 0);
+    height: 600px;
 }
 
 footer {
